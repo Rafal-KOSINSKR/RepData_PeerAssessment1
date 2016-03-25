@@ -2,11 +2,15 @@
 title: "Reproducible Research - Assignment 1"
 author: "Rafal"
 date: "March 22nd, 2016"
-output: html_document
+#output: html_document
+output: md_document
+#output:
+#  md_document:
+#    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE) #wyswietlaj rezultat kodu
+knitr::opts_chunk$set(echo = TRUE, fig.path='figure/') #wyswietlaj rezultat kodu
 options(scipen = 999, digits = 0) #format wyswietlanych liczb
 Sys.setlocale("LC_TIME", "English") #dni tygodnia po angielsku
 ```
